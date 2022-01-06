@@ -32,6 +32,11 @@ function creatNodeFn(e) {
   li.appendChild(h4);
 }
 
+// load full menu
+dishes.map(function (e) {
+  creatNodeFn(e);
+});
+
 btnAllMenu.addEventListener("click", function () {
   menuContainer.innerHTML = "";
   dishes.map(function (e) {

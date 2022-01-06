@@ -16,9 +16,13 @@ body {
 .body {
   margin: auto;
   max-width: 1200px;
-  margin-top: 50px;
   margin-bottom: 100px;
   text-align: center;
+}
+h1 {
+  padding: 30px;
+  font-size: 50px;
+  font-family: "The Nautigal", cursive;
 }
 .buttons {
   width: 100%;
@@ -91,7 +95,6 @@ img {
   /* padding: 10px 30px 10px 10px; */
 }
 
-h1,
 h2,
 h3,
 h4 {
