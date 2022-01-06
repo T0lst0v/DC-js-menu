@@ -68,7 +68,7 @@ img {
   max-width: 100%;
   max-height: auto;
   object-fit: cover;
-  /* border: solid 1px black; */
+  border: solid 1px lightgray;
 }
 .menuImg {
   display: block;
